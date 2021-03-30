@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "start": "index.js node",
+    "start": "node index.js",
     "st": "nodemon",
     "test": "jest --coverage --verbose"
   },
