@@ -13,6 +13,11 @@ app.use(morgan("dev"))
 app.use(cors())
 app.use("/food",foodRouter)
 app.use("/clothes",clothesRouter)
+app.get("/",(req,res)=>{
+
+res.send("Hello")
+})
+
 app.use(serverError)
 app.use("*",notFound)
 
@@ -24,8 +29,4 @@ app.listen(PORT,()=>{console.log(PORT,"----")})
 }
 }
 
-app.get("/",(req,res)=>{
-
-res.send("Hello")
-})
 
