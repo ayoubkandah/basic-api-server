@@ -24,4 +24,4 @@ res data from db
 [pull req](https://github.com/ayoubkandah/basic-api-server/pulls?q=is%3Apr+is%3Aclosed)
 
 # wml
-![wml](..src/Untitled Diagram (1))
+![wml](.src/Untitled Diagram (1))
